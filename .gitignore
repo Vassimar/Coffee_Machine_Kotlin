@@ -1,0 +1,26 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Coffee Machine (Kotlin)/*
+!/Coffee Machine (Kotlin)/task/
+/Coffee Machine (Kotlin)/task/*
+!/Coffee Machine (Kotlin)/task/src
+
+# Project exclude paths
+/Topics/Getting substrings/The last of u/out/
+/Topics/Getting substrings/The last of u/out/production/classes/
+/Topics/Loops  repeat statement/Calculate the sum of natural numbers up to a given limit/out/
+/Topics/Loops  repeat statement/Calculate the sum of natural numbers up to a given limit/out/production/classes/
+/Topics/Processing strings/Find the first occurrence of the word  the/out/
+/Topics/Processing strings/Find the first occurrence of the word  the/out/production/classes/
+/Topics/Processing strings/The percentage of G and C characters/out/
+/Topics/Processing strings/The percentage of G and C characters/out/production/classes/
