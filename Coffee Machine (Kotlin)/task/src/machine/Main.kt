@@ -34,7 +34,6 @@ class CoffeeMachine(water: Int, milk: Int, beans: Int, cups: Int, money: Int) {
         if (cupsAmount < type.cups) missing.add("cups")
 
         if (missing.isEmpty()) {
-            // We have enough resources
             waterAmount -= type.water
             milkAmount -= type.milk
             beansAmount -= type.beans
@@ -42,7 +41,6 @@ class CoffeeMachine(water: Int, milk: Int, beans: Int, cups: Int, money: Int) {
             moneyAmount += type.money
             println("I have enough resources, making you a coffee!")
         } else {
-            // Print what exactly is missing
             println("Sorry, not enough ${missing.joinToString(", ")}!")
         }
     }
